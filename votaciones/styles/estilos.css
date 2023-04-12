@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilos para hacer que todos los elementos del formulario tengan el mismo tamaño */
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+  }
+  
+  label {
+    margin-top: -5px;
+    width: 100%;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox label {
+    margin-left: 10px;
+  }
+  
